@@ -1,0 +1,19 @@
+{
+  "name": "librarian-local-meta",
+  "version": "1.0.0",
+  "description": "LibrarianJS local sqlite metadata engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/librarianjs/local-meta.git"
+  },
+  "author": "Josh Vanderwillik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/librarianjs/local-meta/issues"
+  },
+  "homepage": "https://github.com/librarianjs/local-meta"
+}
