@@ -1,6 +1,6 @@
 {
   "name": "librarian-memory-data",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LibrarianJS in memory data plugin",
   "main": "lib/InMemoryData.js",
   "scripts": {
