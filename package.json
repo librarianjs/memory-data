@@ -1,19 +1,19 @@
 {
-  "name": "librarian-local-meta",
+  "name": "librarian-memory-data",
   "version": "1.0.0",
-  "description": "LibrarianJS local sqlite metadata engine",
-  "main": "index.js",
+  "description": "LibrarianJS in memory data plugin",
+  "main": "lib/InMemoryData.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/librarianjs/local-meta.git"
+    "url": "https://github.com/librarianjs/memory-data.git"
   },
   "author": "Josh Vanderwillik",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/librarianjs/local-meta/issues"
+    "url": "https://github.com/librarianjs/memory-data/issues"
   },
-  "homepage": "https://github.com/librarianjs/local-meta"
+  "homepage": "https://github.com/librarianjs/memory-data"
 }
