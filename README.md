@@ -1,6 +1,6 @@
 # Librarian In Memory Data
 
-A [Librarian](https://github.com/librarianjs/librarian) data plugin that stores records in memory. For development and experimentation only. You shouldn't use this in production. Passes the [data plugin test suite](https://github.com/librarianjs/librarian/blob/master/docs/data-plugin-tests.md)
+A [Librarian](https://github.com/librarianjs/librarian) data plugin that stores records in memory. For development and experimentation only. You shouldn't use this in production. Passes the [data plugin test suite](https://github.com/librarianjs/librarian/blob/master/plugin-tests/data-plugin.js)
 
 Compatible with Librarian v2.0 and above.
 
