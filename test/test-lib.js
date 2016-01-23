@@ -1,6 +1,7 @@
 const assert = require('assert')
 const InMemoryData = require('../')
 
+const UUID_REGEX = /[\w]{8}(-[\w]{4}){3}-[\w]{12}/
 const TEST_KEY = 'test-key'
 const FAKE_KEY = 'fake-key'
 
@@ -20,6 +21,13 @@ describe('InMemoryData', function(){
   it('should get() successfully', () => {
     return plugin.get(TEST_KEY).then(fetched => {
       assert.deepEqual(record, fetched)
+    })
+  })
+
+  it('should getAll() successfully', () => {
+    return plugin.getAll().then(fetched => {
+      assert(Array.isArray(fetched), 'Returned data is not in array form')
+      assert(typeof fetched[0] !== 'object', 'Returned records are objects')
     })
   })
 
